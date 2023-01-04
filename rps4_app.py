@@ -1,11 +1,6 @@
-import sys
-input=sys.argv[1]
-print(input)
-
 import tensorflow as tf
 
 model = tf.keras.models.load_model('my_model4.hdf5',compile=False)
-
 
 import streamlit as st
 import nest_asyncio
